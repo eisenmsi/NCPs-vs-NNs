@@ -1,1 +1,1 @@
-# NCPs-vs.-Transformers
+# NCPs vs. Transformers
