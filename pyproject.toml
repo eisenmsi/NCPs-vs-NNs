@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ncps-vs-nns"
+version = "0.1.0"
+description = ""
+authors = ["Simon Eisenmann <simon.eisenmann98@web.de>"]
+readme = "README.md"
+packages = [{include = "ncps_vs_nns"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ncps = "^0.0.7"
+pytorch-lightning = "^2.1.2"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.0"
+torch = "^2.1.1"
+ale-py = "0.7.4"
+ray = {version = "2.1.0", extras = ["rllib"]}
+gym = {version = "0.23.1", extras = ["accept-rom-license", "atari"]}
+wandb = "^0.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
